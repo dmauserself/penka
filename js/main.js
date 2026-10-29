@@ -140,12 +140,12 @@
   document.querySelectorAll('.menu__list').forEach(function (ul) {
     ul.querySelectorAll('.item').forEach(function (item, i) {
       item.classList.add('reveal');
-      item.style.setProperty('--d', (i * 70) + 'ms');
+      item.style.setProperty('--d', (i * 40) + 'ms');
     });
   });
   document.querySelectorAll('[data-stagger]').forEach(function (box) {
     Array.prototype.forEach.call(box.children, function (el, i) {
-      el.style.setProperty('--d', (i * 90) + 'ms');
+      el.style.setProperty('--d', (i * 60) + 'ms');
     });
   });
 
@@ -159,7 +159,7 @@
         entry.target.classList.add('is-visible');
         observer.unobserve(entry.target);
       });
-    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    }, { threshold: 0.05, rootMargin: '0px 0px -24px 0px' });
 
     revealEls.forEach(function (el) { observer.observe(el); });
   }
