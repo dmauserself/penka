@@ -36,12 +36,12 @@
   ];
 
   /* ------------------------------------------------------------------
-     Время в Казани (МСК, UTC+3, без перехода на летнее время)
+     Время в Алматы (UTC+5 с марта 2024 года, без перехода на летнее время)
      ------------------------------------------------------------------ */
-  var msk = new Date(Date.now() + 3 * 3600 * 1000);
-  var dow = msk.getUTCDay();
-  var minutesNow = msk.getUTCHours() * 60 + msk.getUTCMinutes();
-  var daysSinceEpoch = Math.floor(msk.getTime() / 86400000);
+  var local = new Date(Date.now() + 5 * 3600 * 1000);
+  var dow = local.getUTCDay();
+  var minutesNow = local.getUTCHours() * 60 + local.getUTCMinutes();
+  var daysSinceEpoch = Math.floor(local.getTime() / 86400000);
   var weekIndex = Math.floor((daysSinceEpoch + 3) / 7); // недели с понедельника
   var isWeekend = function (d) { return d === 0 || d === 6; };
   var today = isWeekend(dow) ? HOURS.weekend : HOURS.weekday;

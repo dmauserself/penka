@@ -3,12 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Пенка — кофейня на Профсоюзной в Казани</title>
-  <meta name="description" content="Небольшая кофейня в центре Казани: своя обжарка, выпечка с утра и тихие столики у окна. По будням с 8:00, в выходные с 9:00.">
+  <title>Пенка — кофейня в Золотом квадрате, Алматы</title>
+  <meta name="description" content="Небольшая кофейня в центре Алматы, на Кабанбай батыра, 83: своя обжарка, выпечка с утра и тихие столики у окна. По будням с 8:00, в выходные с 9:00.">
+  <link rel="canonical" href="https://penkacoffee.netlify.app/">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://penkacoffee.netlify.app/">
+  <meta property="og:site_name" content="Пенка">
+  <meta property="og:image" content="https://penkacoffee.netlify.app/images/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Бариста взбивает молоко для капучино">
+  <meta name="twitter:card" content="summary_large_image">
   <meta property="og:locale" content="ru_RU">
-  <meta property="og:title" content="Пенка — кофейня в Казани">
-  <meta property="og:description" content="Своя обжарка, тёплая выпечка и никакой спешки. Профсоюзная, 17.">
+  <meta property="og:title" content="Пенка — кофейня в Алматы">
+  <meta property="og:description" content="Своя обжарка, тёплая выпечка и никакой спешки. Кабанбай батыра, 83.">
   <meta name="theme-color" content="#F4EEE4">
   <meta name="color-scheme" content="light">
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
@@ -22,6 +30,31 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Onest:wght@400;500&display=swap"></noscript>
   <link rel="stylesheet" href="css/style.css">
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Пенка",
+    "url": "https://penkacoffee.netlify.app/",
+    "image": "https://penkacoffee.netlify.app/images/og.jpg",
+    "telephone": "+7 727 200-00-00",
+    "priceRange": "₸₸",
+    "servesCuisine": "Кофе, выпечка",
+    "currenciesAccepted": "KZT",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Кабанбай батыра, 83",
+      "addressLocality": "Алматы",
+      "postalCode": "050050",
+      "addressCountry": "KZ"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 43.25014, "longitude": 76.94590 },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:00", "closes": "21:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday", "Sunday"], "opens": "09:00", "closes": "22:00" }
+    ]
+  }
+  </script>
   <script>document.documentElement.classList.add('js');</script>
   <script src="js/main.js" defer></script>
 </head>
@@ -93,7 +126,7 @@
         <div class="hero__text">
           <p class="hero__hello" data-hello hidden></p>
           <h1 class="hero__title" id="hero-title"><span class="line">Кофе</span> <span class="line">без спешки</span></h1>
-          <p class="hero__lead">Маленькая кофейня на Профсоюзной. Обжариваем зерно сами, печём по утрам и не торопим тех, кто засиделся.</p>
+          <p class="hero__lead">Маленькая кофейня в Золотом квадрате. Обжариваем зерно сами, печём по утрам и не торопим тех, кто засиделся.</p>
           <a class="btn" href="#menu">Посмотреть меню</a>
           <p class="hero__status" data-open-status>По будням с 8:00, в выходные с 9:00</p>
         </div>
@@ -111,14 +144,14 @@
               <source type="image/webp" srcset="images/cappuccino-480.webp 480w, images/cappuccino-800.webp 800w" sizes="(min-width: 960px) 380px, 70vw">
               <img src="images/cappuccino.jpg" alt="Капучино с сердечком на пенке в голубой чашке" width="800" height="1200" fetchpriority="high" decoding="async">
             </picture>
-            <figcaption class="card__tag">Капучино, 240&nbsp;₽</figcaption>
+            <figcaption class="card__tag">Капучино, 1&nbsp;700&nbsp;₸</figcaption>
           </figure>
           <figure class="card hero__photo hero__photo--side">
             <picture>
               <source type="image/webp" srcset="images/cardamom-bun-400.webp 400w, images/cardamom-bun-640.webp 640w" sizes="(min-width: 960px) 280px, 52vw">
               <img src="images/cardamom-bun.jpg" alt="Булочка-узелок с кардамоном на белой тарелке" width="640" height="480" decoding="async">
             </picture>
-            <figcaption class="card__tag">Булочка, 170&nbsp;₽</figcaption>
+            <figcaption class="card__tag">Булочка, 1&nbsp;100&nbsp;₸</figcaption>
           </figure>
         </div>
       </section>
@@ -154,7 +187,7 @@
         <div class="menu__head">
           <div class="reveal">
             <h2 class="section-title" id="menu-title">Меню</h2>
-            <p class="menu__intro">Цены в&nbsp;рублях. Любой напиток можно на&nbsp;овсяном или миндальном молоке.</p>
+            <p class="menu__intro">Цены в&nbsp;тенге. Любой напиток можно на&nbsp;овсяном или миндальном молоке.</p>
           </div>
 
           <!-- Зерно недели: сорт меняется сам каждый понедельник, список в js/main.js (BEANS) -->
@@ -174,50 +207,50 @@
             <h3 class="menu__cat">Кофе</h3>
             <ul class="menu__list">
               <li class="item">
-                <div class="item__row"><span class="item__name">Эспрессо</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">160 ₽</span></div>
+                <div class="item__row"><span class="item__name">Эспрессо</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">1&nbsp;000&nbsp;₸</span></div>
                 <p class="item__desc">Короткий и плотный, на зерне недели</p>
               </li>
               <li class="item">
-                <div class="item__row"><span class="item__name">Американо</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">190 ₽</span></div>
+                <div class="item__row"><span class="item__name">Американо</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">1&nbsp;200&nbsp;₸</span></div>
                 <p class="item__desc">Эспрессо и горячая вода, ничего лишнего</p>
               </li>
               <li class="item">
-                <div class="item__row"><span class="item__name">Капучино</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">240 ₽</span></div>
+                <div class="item__row"><span class="item__name">Капучино</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">1&nbsp;700&nbsp;₸</span></div>
                 <p class="item__desc">Та самая пенка, в честь которой нас назвали</p>
               </li>
               <li class="item">
-                <div class="item__row"><span class="item__name">Флэт уайт</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">260 ₽</span></div>
+                <div class="item__row"><span class="item__name">Флэт уайт</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">1&nbsp;900&nbsp;₸</span></div>
                 <p class="item__desc">Двойной эспрессо и немного бархатного молока</p>
               </li>
               <li class="item">
-                <div class="item__row"><span class="item__name">Раф с халвой</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">290 ₽</span></div>
+                <div class="item__row"><span class="item__name">Раф с халвой</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">2&nbsp;200&nbsp;₸</span></div>
                 <p class="item__desc">Сливки, ваниль и подсолнечная халва</p>
               </li>
               <li class="item">
-                <div class="item__row"><span class="item__name">Фильтр</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">220 ₽</span></div>
+                <div class="item__row"><span class="item__name">Фильтр</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">1&nbsp;500&nbsp;₸</span></div>
                 <p class="item__desc">Всегда на зерне недели, оно на доске выше</p>
               </li>
             </ul>
-            <p class="menu__note">Альтернативное молоко&nbsp;+40&nbsp;₽</p>
+            <p class="menu__note">Альтернативное молоко&nbsp;+400&nbsp;₸</p>
           </div>
 
           <div class="menu__col reveal">
             <h3 class="menu__cat">Не кофе</h3>
             <ul class="menu__list">
               <li class="item">
-                <div class="item__row"><span class="item__name">Какао</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">230 ₽</span></div>
+                <div class="item__row"><span class="item__name">Какао</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">1&nbsp;600&nbsp;₸</span></div>
                 <p class="item__desc">Густое, на молоке, с щепоткой соли</p>
               </li>
               <li class="item">
-                <div class="item__row"><span class="item__name">Чай с чабрецом</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">200 ₽</span></div>
+                <div class="item__row"><span class="item__name">Чай с чабрецом</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">1&nbsp;800&nbsp;₸</span></div>
                 <p class="item__desc">Чёрный листовой, подаём в чайнике на двоих</p>
               </li>
               <li class="item">
-                <div class="item__row"><span class="item__name">Матча латте</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">280 ₽</span></div>
+                <div class="item__row"><span class="item__name">Матча латте</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">2&nbsp;100&nbsp;₸</span></div>
                 <p class="item__desc">Японский зелёный чай и молоко на выбор</p>
               </li>
               <li class="item">
-                <div class="item__row"><span class="item__name">Имбирный лимонад</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">220 ₽</span></div>
+                <div class="item__row"><span class="item__name">Имбирный лимонад</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">1&nbsp;600&nbsp;₸</span></div>
                 <p class="item__desc">Варим сами, получается не приторный</p>
               </li>
             </ul>
@@ -225,23 +258,23 @@
             <h3 class="menu__cat">Выпечка и десерты</h3>
             <ul class="menu__list">
               <li class="item">
-                <div class="item__row"><span class="item__name">Круассан</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">150 ₽</span></div>
+                <div class="item__row"><span class="item__name">Круассан</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">1&nbsp;200&nbsp;₸</span></div>
                 <p class="item__desc">На сливочном масле, хрустит как надо</p>
               </li>
               <li class="item">
-                <div class="item__row"><span class="item__name">Булочка с кардамоном</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">170 ₽</span></div>
+                <div class="item__row"><span class="item__name">Булочка с кардамоном</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">1&nbsp;100&nbsp;₸</span></div>
                 <p class="item__desc">Скандинавский рецепт, к открытию ещё тёплая</p>
               </li>
               <li class="item">
-                <div class="item__row"><span class="item__name">Чак-чак</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">180 ₽</span></div>
+                <div class="item__row"><span class="item__name">Чак-чак</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">1&nbsp;300&nbsp;₸</span></div>
                 <p class="item__desc">С мёдом, по рецепту бабушки Наили</p>
               </li>
               <li class="item">
-                <div class="item__row"><span class="item__name">Баскский чизкейк</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">290 ₽</span></div>
+                <div class="item__row"><span class="item__name">Баскский чизкейк</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">2&nbsp;500&nbsp;₸</span></div>
                 <p class="item__desc">Тёмная корочка сверху, нежный внутри</p>
               </li>
               <li class="item">
-                <div class="item__row"><span class="item__name">Морковный пирог</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">260 ₽</span></div>
+                <div class="item__row"><span class="item__name">Морковный пирог</span><span class="item__dots" aria-hidden="true"></span><span class="item__price">2&nbsp;300&nbsp;₸</span></div>
                 <p class="item__desc">С грецким орехом и сливочным кремом</p>
               </li>
             </ul>
@@ -306,8 +339,8 @@
           <!-- КОНТАКТЫ: заменить адрес, телефон и ссылки на настоящие -->
           <div class="visit__block">
             <h3 class="visit__label">Адрес</h3>
-            <address class="visit__value">Казань, ул.&nbsp;Профсоюзная,&nbsp;17<br>
-              <span class="visit__hint">Вход с улицы, рядом с книжным. От метро «Кремлёвская» минут семь пешком.</span>
+            <address class="visit__value">Алматы, ул.&nbsp;Кабанбай батыра,&nbsp;83<br>
+              <span class="visit__hint">Вход с улицы, рядом с книжным. От метро «Алмалы» пара минут пешком.</span>
             </address>
           </div>
 
@@ -321,27 +354,27 @@
 
           <div class="visit__block">
             <h3 class="visit__label">Телефон</h3>
-            <p class="visit__value"><a class="link" href="tel:+78432000000">+7 (843) 200-00-00</a></p>
+            <p class="visit__value"><a class="link" href="tel:+77272000000">+7 (727) 200-00-00</a></p>
           </div>
 
           <div class="visit__block">
             <h3 class="visit__label">Мы в соцсетях</h3>
             <ul class="socials">
               <li><a class="link" href="#">Телеграм-канал</a></li>
-              <li><a class="link" href="#">ВКонтакте</a></li>
+              <li><a class="link" href="#">Инстаграм</a></li>
             </ul>
           </div>
 
           <div class="visit__block">
-            <a class="link" href="https://www.openstreetmap.org/?mlat=55.79125&amp;mlon=49.11670#map=17/55.79125/49.11670" target="_blank" rel="noopener">Открыть карту крупнее</a>
+            <a class="link" href="https://www.openstreetmap.org/?mlat=43.25014&amp;mlon=76.94590#map=17/43.25014/76.94590" target="_blank" rel="noopener">Открыть карту крупнее</a>
           </div>
         </div>
 
         <!-- КАРТА: OpenStreetMap. Можно заменить на iframe Яндекс Карт (Конструктор карт → «Получить код») -->
         <figure class="card visit__map reveal">
           <iframe
-            src="https://www.openstreetmap.org/export/embed.html?bbox=49.1085%2C55.7880%2C49.1250%2C55.7945&amp;layer=mapnik&amp;marker=55.79125%2C49.11670"
-            title="Карта: кофейня на Профсоюзной, 17 в Казани"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=76.9377%2C43.2470%2C76.9541%2C43.2533&amp;layer=mapnik&amp;marker=43.25014%2C76.94590"
+            title="Карта: кофейня на Кабанбай батыра, 83 в Алматы"
             loading="lazy"
             tabindex="-1"
             aria-hidden="true"
@@ -350,7 +383,7 @@
             <path d="M20 51S2 31 2 19a18 18 0 0 1 36 0c0 12-18 32-18 32z" fill="#9C5435" stroke="#F4EEE4" stroke-width="2.5"/>
             <circle cx="20" cy="19" r="7" fill="#F4EEE4"/>
           </svg>
-          <figcaption class="card__tag">Профсоюзная, 17</figcaption>
+          <figcaption class="card__tag">Кабанбай батыра, 83</figcaption>
           <a class="visit__credit" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© участники OpenStreetMap</a>
         </figure>
       </div>
@@ -360,7 +393,7 @@
   <footer class="site-footer">
     <div class="container">
       <div class="site-footer__inner">
-        <p>© <span data-year>2026</span> Пенка, Казань</p>
+        <p>© <span data-year>2026</span> Пенка, Алматы</p>
         <a class="link" href="#top">Наверх</a>
       </div>
     </div>
